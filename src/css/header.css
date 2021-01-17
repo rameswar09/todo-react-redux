@@ -1,0 +1,73 @@
+
+
+.header-wrapper {
+  display: flex;
+  height: 50px;
+  border-bottom: 2px solid white;
+  justify-content: space-between;
+  margin:0px 4px 0px 4px
+}
+
+.titile-wrapper {
+  /* border: 1px solid black; */
+  display: flex;
+  flex-grow: 1;
+  align-content: center;
+  align-items: center;
+  
+}
+
+.user-section-wrapper {
+  /* border: 1px solid black; */
+}
+.title-name {
+  color: white;
+  font-size: x-large;
+  font-weight: 700;
+  font-family: "Yusei Magic", sans-serif;
+  margin: 0px 10px 0px 10px;
+}
+
+.nav-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+}
+
+.add-bucket-wrapper {
+  width: 90px;
+  height: 40px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* justify-items: center; */
+  border-radius: 10%;
+}
+.btn-div {
+  width: 100px;
+  
+}
+.user-ion {
+  width: 45px;
+  height: 45px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* justify-items: center; */
+  border-radius: 50%;
+}
+.header-btn{
+    width: 100%;
+    padding: 2px;
+    height: 40px;
+    border-radius: 10%;
+    border:0;
+    text-decoration: none
+}
+
+.nav-wrapper > div {
+    margin: 0px 15px 0px 15px;
+}
